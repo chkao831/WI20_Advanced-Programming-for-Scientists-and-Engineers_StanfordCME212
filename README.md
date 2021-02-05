@@ -1,3 +1,6 @@
+## For detailed coursework, please refer to the 'Assignment Prompts' folder
+
+### This is the README file for the final homework (hw4)
 Documenting Runtime:
 
 By the end of HW4 Part 3.2, we are asked to document the runtime of the sequential version of symp_euler_step versus its parallel version (of HW4) for given data grids. 
