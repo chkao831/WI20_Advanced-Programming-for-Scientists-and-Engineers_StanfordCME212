@@ -1,0 +1,20 @@
+Briefly describe your code functionality and usage in a README file.\
+\
+MinStack uses dynamically allocated array on heap. \
+It supports push, pop, top, and retrieving the minimum element in constant time.\
+By using $make on command line, and then $./main \
+The program could be executed. \
+My code meets the design specifications and performs the correct computations.\
+When I push, I insert element to the back to array; \
+When I pop, I decrement the size of stack by 1;\
+When I top, I return the element of last position from stack;\
+When I get size, I get the size of array;\
+When I want min(), I get the size of min_stack array.\
+\
+Explain what might happen if we naively implemented a member-wise copy operation on your data- structure in your README file.
+\
+Without properly copy with copy constructor and copy assignment, the default copy constructor is called and an error of malloc would be thrown as we see from exercise 4.
+\
+Describe and justify precisely the storage requirements of your container using O notation.
+\ 
+With proper usage of pointer (delete, new keywords), every time when I use doubling strategy to double the capacity, I would delete the old stack such that there is no additional storage as required. 
